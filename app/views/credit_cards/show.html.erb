@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @credit_card.title %>
+</p>
+
+<p>
+  <strong>Apr:</strong>
+  <%= @credit_card.apr %>
+</p>
+
+<p>
+  <strong>Cash back:</strong>
+  <%= @credit_card.cash_back %>
+</p>
+
+<p>
+  <strong>Travel:</strong>
+  <%= @credit_card.travel %>
+</p>
+
+<p>
+  <strong>Balance trasfer:</strong>
+  <%= @credit_card.balance_trasfer %>
+</p>
+
+<p>
+  <strong>Annual fee:</strong>
+  <%= @credit_card.annual_fee %>
+</p>
+
+<%= link_to 'Edit', edit_credit_card_path(@credit_card) %> |
+<%= link_to 'Back', credit_cards_path %>

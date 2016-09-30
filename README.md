@@ -22,3 +22,17 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+Console - Rails console 
+
+rake db:migrate Database migrate 
+
+Creating posts with title and content
+rails generate scaffold Post title:string content:text --no-stylesheets
+
+then 
+
+rake db:migrate Database migrate
+
+rails generate scaffold Credit_Card title:string apr:float cash_back:boolean travel:boolean balance_trasfer:boolean annual_fee:int --no-stylesheets 

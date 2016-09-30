@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  apr: 1.5
+  cash_back: false
+  travel: false
+  balance_trasfer: false
+  annual_fee: 
+
+two:
+  title: MyString
+  apr: 1.5
+  cash_back: false
+  travel: false
+  balance_trasfer: false
+  annual_fee: 

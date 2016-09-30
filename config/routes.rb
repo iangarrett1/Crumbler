@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :credit_cards
+  resources :posts
   get "about" => 'pages#about'
 
   get 'pages/welcome'
