@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   resources :credit_cards
   resources :posts
+  resources :hearts, only: :create
   get "about" => 'pages#about'
 
   get 'pages/welcome'
